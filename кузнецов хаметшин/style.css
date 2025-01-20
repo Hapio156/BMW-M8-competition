@@ -2,7 +2,6 @@
 /* font-family: "Montserrat", serif; */
 
 .container {
-  display: flex;
   width: 1300px;
   margin: 0 auto;
   gap: 30px;
@@ -13,6 +12,8 @@
 .set,
 .Satisfaction,
 h3 p {
+  width: 234px;
+  margin: 0 auto;
   text-align: center;
   font-family: "Montserrat", serif;
   font-weight: 500;
@@ -21,4 +22,9 @@ h3 p {
   letter-spacing: 0.01em;
   text-align: center;
   color: #737373;
+}
+.peace,
+.set,
+.Satisfaction{
+  margin-bottom: 30px;
 }
